@@ -1,0 +1,2 @@
+Use AWS CloudWatch Billing metrics to create an alarm when estimated charges cross ₹100 (~INR). Enable Free Tier usage alerts from the Billing console (in some accounts you must enable Cost and Usage Reports or Free Tier alerts from Billing Preferences). The Terraform code creates a CloudWatch alarm for
+the EstimatedCharges metric for the AWS/Billing namespace.
